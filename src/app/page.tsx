@@ -203,10 +203,12 @@ export default function ProposalPage() {
 
           {/* CTA Button */}
           <div className={`${isVisible ? "animate-fade-in-up delay-300" : "opacity-0"}`}>
-            <button className="btn-primary text-lg flex items-center gap-2 mx-auto">
-              <RocketIcon />
-              View Proposal
-            </button>
+            <a
+              href="https://checkout.payfunnels.co/invoice/jxp86v4jz7/t9oktko0zdtbh2g0"
+              className="btn-primary text-lg inline-flex items-center gap-2"
+            >
+              Click Here to Pay
+            </a>
           </div>
 
           {/* Scroll indicator */}
@@ -402,10 +404,12 @@ export default function ProposalPage() {
               60 days. Full execution support. Results you can measure.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="btn-primary text-lg flex items-center gap-2 justify-center">
-                <RocketIcon />
-                Accept Proposal
-              </button>
+              <a
+                href="https://checkout.payfunnels.co/invoice/jxp86v4jz7/t9oktko0zdtbh2g0"
+                className="btn-primary text-lg inline-flex items-center gap-2 justify-center"
+              >
+                Accept & Pay
+              </a>
               <button className="px-8 py-4 rounded-full border border-white/20 hover:border-[#00ffc1]/50 hover:bg-white/5 transition-all duration-300 font-semibold">
                 Schedule a Call
               </button>
