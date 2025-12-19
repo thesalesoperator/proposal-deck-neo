@@ -188,26 +188,24 @@ export default function ProposalPage() {
           {/* Logo/Badge */}
           <div className={`inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8 ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}>
             <div className="w-2 h-2 rounded-full bg-[#00ffc1] animate-pulse" />
-            <span className="text-sm text-gray-400">Executive Coaching Proposal</span>
+            <span className="text-sm text-gray-400">Rev Pilot Consulting</span>
           </div>
 
           {/* Main heading */}
           <h1 className={`text-5xl md:text-7xl font-bold mb-6 leading-tight ${isVisible ? "animate-fade-in-up delay-100" : "opacity-0"}`}>
-            Transform Your Business with{" "}
-            <span className="gradient-text">Personalized</span>{" "}
-            <span className="text-[#00ffc1] teal-glow">Coaching</span>
+            Scale Faster.{" "}
+            <span className="gradient-text">Close More.</span>
           </h1>
 
           <p className={`text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed ${isVisible ? "animate-fade-in-up delay-200" : "opacity-0"}`}>
-            Get direct access to Jordan&apos;s expertise in sales, events, affiliate systems,
-            and team building. Your dedicated partner for accelerated growth.
+            A 2-month intensive to optimize your sales engine, affiliate systems, and event strategy.
           </p>
 
           {/* CTA Button */}
           <div className={`${isVisible ? "animate-fade-in-up delay-300" : "opacity-0"}`}>
             <button className="btn-primary text-lg flex items-center gap-2 mx-auto">
               <RocketIcon />
-              Let&apos;s Get Started
+              View Proposal
             </button>
           </div>
 
@@ -256,36 +254,36 @@ export default function ProposalPage() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              What&apos;s <span className="gradient-text">Included</span>
+              Engagement <span className="gradient-text">Scope</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              A comprehensive coaching package designed for maximum impact
+              Direct access to senior-level strategy and hands-on implementation support
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
             <DeliveryCard
               icon={<UsersIcon />}
-              title="8 1:1 Coaching Sessions with Jordan"
-              description="Deep-dive sessions tailored to your specific challenges and goals. Direct access to Jordan's decade of experience scaling businesses."
+              title="8 Strategy Sessions with Jordan"
+              description="Weekly 1:1 calls focused on execution. We'll diagnose bottlenecks, implement solutions, and track progress against KPIs."
               delay="delay-100"
             />
             <DeliveryCard
               icon={<CalendarIcon />}
-              title="2 Guest Expert Sessions"
-              description="Bring in specialized expertise when needed. Access Jordan's network of industry leaders for targeted knowledge transfer."
+              title="2 Specialist Sessions"
+              description="Targeted sessions with subject matter experts from our network—brought in based on your specific needs."
               delay="delay-200"
             />
             <DeliveryCard
               icon={<ChatIcon />}
               title="Dedicated Slack Channel"
-              description="Real-time support between sessions. Quick answers, resource sharing, and ongoing guidance when you need it most."
+              description="Async support between calls. Get answers in hours, not days. Direct line to our team for quick decisions."
               delay="delay-300"
             />
             <DeliveryCard
               icon={<BoltIcon />}
               title="Priority Tech Support"
-              description="As-needed 'put out this fire' technical support from our internal team. Never let tech issues slow your momentum."
+              description="On-demand technical support from our internal team. When something breaks, we fix it—fast."
               delay="delay-400"
             />
           </div>
@@ -300,71 +298,71 @@ export default function ProposalPage() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Topics We&apos;ll <span className="text-[#00ffc1] teal-glow">Cover</span>
+              Focus <span className="text-[#00ffc1] teal-glow">Areas</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              From affiliate systems to sales processes, we&apos;ll build the foundation for sustainable growth
+              We&apos;ll prioritize based on where we can drive the most immediate ROI
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <TopicCard
-              title="Affiliate Program & System"
+              title="Affiliate Systems"
               items={[
-                "Build your outreach methodology",
-                "Craft compelling message templates",
-                "Structure content that drives action"
+                "Outreach methodology & sequencing",
+                "High-converting message frameworks",
+                "Content structure for activation"
               ]}
               gradient="bg-gradient-to-r from-[#ff0043]/20 to-[#ff9855]/20 text-[#ff9855]"
               delay="delay-100"
             />
             <TopicCard
-              title="Sales Process"
+              title="Sales Infrastructure"
               items={[
-                "HubSpot optimization",
+                "HubSpot pipeline optimization",
                 "Dialer.io configuration",
-                "Close CRM setup",
-                "Sales automation workflows"
+                "Close CRM implementation",
+                "Automation workflows"
               ]}
               gradient="bg-gradient-to-r from-[#00ffc1]/20 to-[#00d9a6]/20 text-[#00ffc1]"
               delay="delay-200"
             />
             <TopicCard
-              title="Event Mastery"
+              title="Event Operations"
               items={[
-                "Event structure & planning",
-                "Running engaging event rooms",
-                "Event sales coaching"
+                "Event structure & flow design",
+                "Room management & engagement",
+                "Live event sales execution"
               ]}
               gradient="bg-gradient-to-r from-[#ff9855]/20 to-[#ffbe57]/20 text-[#ffbe57]"
               delay="delay-300"
             />
             <TopicCard
-              title="Network Access"
+              title="Network & Partnerships"
               items={[
-                "Direct introductions to key players",
-                "Strategic partnership opportunities",
-                "Industry insider connections"
+                "Warm introductions to operators",
+                "Strategic partnership frameworks",
+                "Industry relationship building"
               ]}
               gradient="bg-gradient-to-r from-[#00ffc1]/20 to-[#00d9a6]/20 text-[#00ffc1]"
               delay="delay-400"
             />
             <TopicCard
-              title="Team Building"
+              title="Hiring & Team"
               items={[
-                "Hiring strategy & support",
+                "Role definition & hiring process",
                 "Team structure optimization",
-                "Bringing in specialists as needed"
+                "Specialist sourcing as needed"
               ]}
               gradient="bg-gradient-to-r from-[#ff0043]/20 to-[#ff9855]/20 text-[#ff9855]"
               delay="delay-500"
             />
             <TopicCard
-              title="Custom Support"
+              title="Flex Capacity"
               items={[
-                "Flexible agenda based on your needs",
-                "Access to additional experts",
-                "Tailored solutions for unique challenges"
+                "Agenda adapts to your priorities",
+                "Additional SMEs on demand",
+                "Solve problems as they arise"
               ]}
               gradient="bg-gradient-to-r from-[#ff9855]/20 to-[#ffbe57]/20 text-[#ffbe57]"
               delay="delay-600"
@@ -377,7 +375,7 @@ export default function ProposalPage() {
       <section className="relative z-10 py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="gradient-border p-8 md:p-12">
-            <h3 className="text-2xl font-bold mb-8 text-center">Tech Stack We&apos;ll Master Together</h3>
+            <h3 className="text-2xl font-bold mb-8 text-center">Platforms We&apos;ll Optimize</h3>
             <div className="flex flex-wrap justify-center gap-4">
               {["HubSpot", "Dialer.io", "Close CRM", "Automations", "Slack"].map((tech, index) => (
                 <div
@@ -398,10 +396,10 @@ export default function ProposalPage() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="gradient-border p-12 md:p-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Ready to <span className="gradient-text">Accelerate</span>?
+              Let&apos;s <span className="gradient-text">Move</span>.
             </h2>
             <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-              Let&apos;s discuss how this coaching engagement can transform your business in the next 2 months.
+              60 days. Full execution support. Results you can measure.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="btn-primary text-lg flex items-center gap-2 justify-center">
