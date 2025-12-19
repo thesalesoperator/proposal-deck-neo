@@ -251,7 +251,57 @@ export default function ProposalPage() {
         </div>
       </section>
 
-      {/* What You Get Section */}
+      {/* Social Proof Stats */}
+      <section className="relative z-10 py-16 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div className="space-y-2">
+              <div className="text-4xl md:text-5xl font-bold text-[#00ffc1]">$100M+</div>
+              <p className="text-gray-400 text-sm uppercase tracking-wider">Client Revenue Generated</p>
+            </div>
+            <div className="space-y-2">
+              <div className="text-4xl md:text-5xl font-bold gradient-text">300+</div>
+              <p className="text-gray-400 text-sm uppercase tracking-wider">Sales Reps Onboarded</p>
+            </div>
+            <div className="space-y-2">
+              <div className="text-4xl md:text-5xl font-bold text-[#00ffc1]">87%</div>
+              <p className="text-gray-400 text-sm uppercase tracking-wider">Net Promoter Score</p>
+            </div>
+            <div className="space-y-2">
+              <div className="text-4xl md:text-5xl font-bold gradient-text">#1</div>
+              <p className="text-gray-400 text-sm uppercase tracking-wider">Close CRM Partner</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Trusted By Section */}
+      <section className="relative z-10 py-16 px-6">
+        <div className="max-w-6xl mx-auto">
+          <p className="text-center text-gray-500 uppercase tracking-widest text-sm mb-10">Trusted by Industry Leaders</p>
+          <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-6">
+            {[
+              "Dean Graziosi",
+              "Matt Gray (Founder OS)",
+              "Jeremy Miner (7th Level)",
+              "Tarek El Moussa",
+              "Pedro Adao",
+              "Timothy Sykes",
+              "Pace Morby (Subto)"
+            ].map((client) => (
+              <div
+                key={client}
+                className="text-gray-400 hover:text-white transition-colors duration-300 font-medium text-lg"
+              >
+                {client}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Section Divider */}
+      <div className="section-divider max-w-4xl mx-auto" />
       <section className="relative z-10 py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -389,6 +439,35 @@ export default function ProposalPage() {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Video Testimonial Section */}
+      <section className="relative z-10 py-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              Hear From Our <span className="gradient-text">Clients</span>
+            </h2>
+            <p className="text-xl text-gray-400">
+              Real results from real partnerships
+            </p>
+          </div>
+          <div className="gradient-border p-2 md:p-3">
+            <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+              <iframe
+                className="absolute top-0 left-0 w-full h-full rounded-xl"
+                src="https://www.youtube.com/embed/f7sQ3r2ZT-s"
+                title="Client Testimonial"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+          <div className="mt-8 text-center">
+            <p className="text-gray-400 italic">&ldquo;Their depth with HubSpot, Close, dialers, and automations is next-level.&rdquo;</p>
+            <p className="text-[#00ffc1] font-medium mt-2">— Ben Gower, Founder</p>
           </div>
         </div>
       </section>
