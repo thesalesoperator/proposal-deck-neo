@@ -482,17 +482,12 @@ export default function ProposalPage() {
             <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
               60 days. Full execution support. Results you can measure.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="https://checkout.payfunnels.co/invoice/jxp86v4jz7/t9oktko0zdtbh2g0"
-                className="btn-primary text-lg inline-flex items-center gap-2 justify-center"
-              >
-                Accept & Pay
-              </a>
-              <button className="px-8 py-4 rounded-full border border-white/20 hover:border-[#00ffc1]/50 hover:bg-white/5 transition-all duration-300 font-semibold">
-                Schedule a Call
-              </button>
-            </div>
+            <a
+              href="https://checkout.payfunnels.co/invoice/jxp86v4jz7/t9oktko0zdtbh2g0"
+              className="btn-primary text-lg inline-flex items-center gap-2 justify-center"
+            >
+              Accept & Pay
+            </a>
           </div>
         </div>
       </section>
