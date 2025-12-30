@@ -313,30 +313,24 @@ export default function ProposalPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-3 gap-6">
             <DeliveryCard
               icon={<UsersIcon />}
-              title="8 Strategy Sessions with Jordan"
-              description="Weekly 1:1 calls focused on execution. We'll diagnose bottlenecks, implement solutions, and track progress against KPIs."
+              title="4 1:1 Calls with Jordan"
+              description="Strategic sessions focused on your highest-priority challenges. Direct access to diagnose issues and implement solutions."
               delay="delay-100"
             />
             <DeliveryCard
               icon={<CalendarIcon />}
-              title="2 Specialist Sessions"
+              title="2 Guest Calls"
               description="Targeted sessions with subject matter experts from our network—brought in based on your specific needs."
               delay="delay-200"
             />
             <DeliveryCard
-              icon={<ChatIcon />}
-              title="Dedicated Slack Channel"
-              description="Async support between calls. Get answers in hours, not days. Direct line to our team for quick decisions."
-              delay="delay-300"
-            />
-            <DeliveryCard
               icon={<BoltIcon />}
-              title="Priority Tech Support"
-              description="On-demand technical support from our internal team. When something breaks, we fix it—fast."
-              delay="delay-400"
+              title="12 Full Implementation Hours"
+              description="Hands-on execution from our team. We build, configure, and optimize your systems—not just advise."
+              delay="delay-300"
             />
           </div>
         </div>
