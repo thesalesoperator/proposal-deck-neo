@@ -198,7 +198,7 @@ export default function ProposalPage() {
           </h1>
 
           <p className={`text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed ${isVisible ? "animate-fade-in-up delay-200" : "opacity-0"}`}>
-            A 2-month intensive to optimize your sales engine, affiliate systems, and event strategy.
+            A 1-month intensive to optimize your sales engine, affiliate systems, and event strategy.
           </p>
 
           {/* CTA Button */}
@@ -229,7 +229,7 @@ export default function ProposalPage() {
               <div className="text-center md:text-left">
                 <p className="text-gray-400 uppercase tracking-wider text-sm mb-2">Your Investment</p>
                 <div className="flex items-baseline gap-1 justify-center md:justify-start">
-                  <span className="text-5xl md:text-6xl font-bold gradient-text">$<AnimatedCounter target={20000} /></span>
+                  <span className="text-5xl md:text-6xl font-bold gradient-text">$<AnimatedCounter target={9000} /></span>
                   <span className="text-gray-500 text-xl">USD</span>
                 </div>
               </div>
@@ -241,8 +241,8 @@ export default function ProposalPage() {
               <div className="text-center md:text-left">
                 <p className="text-gray-400 uppercase tracking-wider text-sm mb-2">Delivery Window</p>
                 <div className="flex items-baseline gap-2 justify-center md:justify-start">
-                  <span className="text-5xl md:text-6xl font-bold text-[#00ffc1]">2</span>
-                  <span className="text-2xl text-gray-300">Months</span>
+                  <span className="text-5xl md:text-6xl font-bold text-[#00ffc1]">1</span>
+                  <span className="text-2xl text-gray-300">Month</span>
                 </div>
                 <p className="text-gray-500 mt-2">Intensive, focused engagement</p>
               </div>
@@ -474,7 +474,7 @@ export default function ProposalPage() {
               Let&apos;s <span className="gradient-text">Move</span>.
             </h2>
             <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-              60 days. Full execution support. Results you can measure.
+              30 days. Full execution support. Results you can measure.
             </p>
             <a
               href="https://checkout.payfunnels.co/invoice/jxp86v4jz7/t9oktko0zdtbh2g0"
